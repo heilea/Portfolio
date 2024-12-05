@@ -5,6 +5,7 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import styled from "styled-components";
 
+
 const App: React.FC = () => {
   return (
     <AppStyled>

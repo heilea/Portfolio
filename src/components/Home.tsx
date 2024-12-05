@@ -1,14 +1,14 @@
 import styled from "styled-components";
-import picture from "../assets/images/picture.webp"
+import Blob from "./Blob";
 
 export const Home: React.FC = () => {
     return (
       <Homestyled>
+         <Blob />
         <h1>Bienvenue sur mon portfolio</h1>
         <h2>
           Je suis Heiarii, développeur passionné par React et TypeScript.
         </h2>
-        <img src={picture} alt="Photo de Heiarii" className="picture"/>
       </Homestyled>
     );
   };
@@ -23,7 +23,8 @@ export const Home: React.FC = () => {
   background-color: #b3552c;
   text-align: center;
   padding: 16px;
-  position: relative;
+  gap: 80px;
+  
 
 
  h1 {
@@ -35,11 +36,5 @@ export const Home: React.FC = () => {
   margin-top: 16px;
   font-size: 1.6rem;
   color: black;
-}
-
-.picture{
-  position:absolute;
-  bottom: 0px ;
-  left: 0px ;
 }
   `
