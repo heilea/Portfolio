@@ -1,10 +1,10 @@
-import React from 'react';
+/*import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
-import projet from "../assets/images/3wJetLE.jpeg";
+import projet from "../../assets/images/wGuIanG.jpeg";
 
 const slideStyle: React.CSSProperties = {
   height: '300px',

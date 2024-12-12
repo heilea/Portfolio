@@ -1,14 +1,14 @@
 import React from "react";
-import { Header } from "./components/Header";
-import { Home } from "./components/Home";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
+import { Header } from "./components/header/Header";
+import { Home } from "./components/home/Home";
+import { Projects } from "./components/projects/Projects";
+import { Contact } from "./components/contact/Contact";
 import styled from "styled-components";
 
 
 const App: React.FC = () => {
   return (
-    <AppStyled>
+    <>
       <Header />
       <main>
         <section id="home">
@@ -21,12 +21,9 @@ const App: React.FC = () => {
           <Contact />
         </section>
       </main>
-    </AppStyled>
+    </>
   );
 };
 
 export default App;
 
-const AppStyled = styled.div`
- 
-`
